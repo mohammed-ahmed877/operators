@@ -76,13 +76,63 @@ console.log("welcome to the project of operators");
 // console.log((value1)*=(value2));
 
 // 9. Set a variable to 50. Divide it by 2 using /= and log the final value.
-var num1=(50);
-console.log("it is the final value"+ (num1 /= 2) );
+// var num1=(50);
+// console.log("it is the final value"+ (num1 /= 2) );
 
 
 // 10. Create a variable, assign it a value from prompt(), then increase it by 10 and show the  result.
-var num1= prompt("kindly enter the number that you want to increase by 10");
-console.log("this is the number you want to increase by 10 " + (num1 += 10) );
+// var num1= prompt("kindly enter the number that you want to increase by 10");
+// console.log("this is the number you want to increase by 10 " + (num1 += 10) );
+
+
+
+
+
+// ✴️ Comparison Operator Tasks
+
+
+
+// 11. Ask the user for two numbers. Use > to check if the first number is greater than the second, then log the result (true/false).
+// let num1 =prompt("kindly ener your first number you want to check")
+// let num2 =prompt("kindly ener your second number you want to check")
+// console.log((num1)>(num2));
+
+
+// 12. Ask the user for two numbers. Use < to check if the first number is less than the second, then alert the result.
+// let num1=prompt("kindlyl enter the number you want to compair")
+// let num2=prompt("kindlyl enter the second number you want to compair")
+// console.log((num1)<(num2));
+
+
+
+// 13. Ask the user for a number. Use == to check if it equals 100 and log the result.
+// let num1 =prompt("kindely enter the number you want to compair")
+// console.log(  (num1) == 100  );
+
+// 14. Ask the user for a number. Use === to check if it is exactly equal to the string "100" and log the result.
+// let num1=prompt("enter the number you want ")
+// let num2 =(num1 === "100")
+// console.log(num1);
+
+
+// 15. Ask the user for two numbers. Use != to check if they are not equal and alert the result.
+// let num3 = (num1 != num2);
+// alert (num3)
+// 16. Ask the user for two numbers. Use !== to check if they are not strictly equal and log  the result.
+// let num1 =prompt("kindly enter the number you want to add")
+// let num2 = prompt("kindly enter the secnd number")
+// console.log((num1)!==(num2));
+
+// 17. Ask for two numbers and check if the first is greater than or equal to the second. Display result using alert.
+
+// let num1=prompt("enter the first number")
+// let num2=prompt("enter the second number")
+// alert ((num1)>=(num2))
+
+// 18. Ask for two numbers and check if the first is less than or equal to the second. Show result in the console.
+// let num1 =prompt("enter the first number")
+// let num2=prompt("enter the second number")
+// console.log((num1)<=(num2));
 
 
 
@@ -91,9 +141,13 @@ console.log("this is the number you want to increase by 10 " + (num1 += 10) );
 
 
 
+// ✴️ Logical Operator Tasks
+// 19. Ask the user for age and country. Use && to check if age is over 18 and country is "USA". Log the result.
+// let num1 = prompt("enter your age ")
+// let num2 = prompt("enter your country ")
+// console.log((num1)>= 18 && (num2) == "usa");
 
-
-
-
-
-
+// 20. Ask the user to enter a color and a shape. Use || to check if the color is "red" or the shape is "circle". Show the result in an alert.
+// let color = prompt("kindly enter the color you want ")
+// let color2 = prompt("kindly enter the diggram you want")
+// alert((color)==="red"|| (color2) === "circal")
