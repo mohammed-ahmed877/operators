@@ -55,10 +55,6 @@ console.log("welcome to the project of operators");
 
 
 // ✴️ Assignment Operator Tasks
-// 8. Create a variable with the value 6. Multiply it by 3 using *= and display the result.
-// 9. Set a variable to 50. Divide it by 2 using /= and log the final value.
-// 10. Create a variable, assign it a value from prompt(), then increase it by 10 and show the
-// result.
 
 
 
@@ -69,11 +65,35 @@ console.log("welcome to the project of operators");
 //  console.log((num1) += (num2)  );
 
 
-
-
-
-
 // 7. Create a variable with the value 20. Subtract 4 from it using -= and alert the result.
 // var num1=(x=20);
 // var num2=(x=4);
 // alert((num1) -= (num2) );    
+
+// 8. Create a variable with the value 6. Multiply it by 3 using *= and display the result.
+// var value1=(6);
+// var value2=(3)
+// console.log((value1)*=(value2));
+
+// 9. Set a variable to 50. Divide it by 2 using /= and log the final value.
+var num1=(50);
+console.log("it is the final value"+ (num1 /= 2) );
+
+
+// 10. Create a variable, assign it a value from prompt(), then increase it by 10 and show the  result.
+var num1= prompt("kindly enter the number that you want to increase by 10");
+console.log("this is the number you want to increase by 10 " + (num1 += 10) );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
